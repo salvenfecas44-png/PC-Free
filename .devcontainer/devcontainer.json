@@ -1,0 +1,11 @@
+{
+  "name": "Windows",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {},
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": ["ms-python.python"],
+  "forwardPorts": [3000],
+  "postCreateCommand": "echo 'Entorno listo!'"
+}
